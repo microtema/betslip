@@ -100,7 +100,7 @@ public class BetslipResourceIT {
     }
 
     @Test
-    public void createTextFileWillReturnWithBadRequest() {
+    public void createBetslipWillReturnWithBadRequest() {
 
         //given
         model.setTeamName(null);
